@@ -44,8 +44,8 @@ limStoch = {
 ################################################################ TIMEFRAMES ->
 # fetch historical data intervals
 fetchItval = {
-            'little':'15Min',
-            'big':'60Min'
+            'little':'5Min',
+            'big':'30Min'
             }
 
 # timeouts that will kill a process
