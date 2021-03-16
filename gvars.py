@@ -19,7 +19,7 @@ limitOrderMargin = 0.1 # percentage that defines the offset for the limit orders
 API_KEY = "PK2XLD5VW46RMYEG8NRX"
 API_SECRET_KEY = "jCwfaejhu9NNz5YpbUPw9heJKTLwytcyrDRNq9GJ"
 ALPACA_API_URL = "https://paper-api.alpaca.markets"
-
+account.multiplier = 4
 # this block checks whether you have your keys written or not
 if API_KEY is "" or API_SECRET_KEY is "":
     print('\n\n##### \n\nPlease get an API key at the Alpaca website! \n\n##### \n\n')
