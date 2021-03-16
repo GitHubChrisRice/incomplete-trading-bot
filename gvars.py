@@ -9,7 +9,7 @@ from datetime import datetime
 
 MAX_WORKERS = 40 # max threads at a time
 
-gainRatio = 1.01 # takeProfit = -stopLoss*gainRatio
+gainRatio = 1.03 # takeProfit = -stopLoss*gainRatio
 stopLossMargin = 0.05 # extra margin for the stop loss
 
 operEquity = 100 # defines the target amount per execution ($)
@@ -45,7 +45,7 @@ limStoch = {
 # fetch historical data intervals
 fetchItval = {
             'little':'1Min',
-            'big':'5Min'
+            'big':'15Min'
             }
 
 # timeouts that will kill a process
