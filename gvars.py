@@ -44,7 +44,7 @@ limStoch = {
 ################################################################ TIMEFRAMES ->
 # fetch historical data intervals
 fetchItval = {
-            'little':'1Min',
+            'little':'5Min',
             'big':'15Min'
             }
 
