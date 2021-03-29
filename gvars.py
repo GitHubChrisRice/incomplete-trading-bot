@@ -12,7 +12,7 @@ MAX_WORKERS = 50 # max threads at a time
 gainRatio = 1.02 # takeProfit = -stopLoss*gainRatio
 stopLossMargin = 0.001 # extra margin for the stop loss
 
-operEquity = 5000 # defines the target amount per execution ($)
+operEquity = 15000 # defines the target amount per execution ($)
 limitOrderMargin = 0.1 # percentage that defines the offset for the limit orders
 
 # YOUR API KEYS AT ALPACA GO HERE!
